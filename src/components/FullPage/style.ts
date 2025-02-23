@@ -13,7 +13,7 @@ const FullPageStyle={
     height:'5rem',
     width:'5rem',
     marginLeft: '3rem',
-    marginTop: '3rem',
+    marginTop: '2rem',
   }
 }
 

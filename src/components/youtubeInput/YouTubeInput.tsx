@@ -26,7 +26,7 @@ const YouTubeInput: React.FC<YouTubeInputProps> = (props) => {
   const fetchData = async () => {
     props.setLoading(true)
     try {
-      const response = await axiosInstance.get(`/api?video_url=${encodeURIComponent(url)}`);
+      const response = await axiosInstance.get(`/api?video_url=${encodeURIComponent(url)}W`);
       return response.data
     } catch (error) {
       console.error('Error fetching data:', error);
